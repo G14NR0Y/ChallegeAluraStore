@@ -76,13 +76,4 @@ plt.pie(tienda1['Producto_Vendido'], labels=tienda1['Producto'], autopct='%1.1f%
 plt.title('Top 10 Productos - Tienda 1')
 plt.show()
 ```
-
----
-
-### 5. **Mostrar todos los datos**
-```python
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
-```
-
 ---
